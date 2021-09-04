@@ -1,0 +1,36 @@
+{
+  "reason.path.ocamlmerlin": "./_opam/bin/ocamlmerlin",
+  "reason.path.ocamlfind": "./_opam/bin/ocamlfind",
+  "reason.path.ocpindent": "./_opam/bin/ocp-indent",
+  "reason.diagnostics.tools": [
+    "merlin"
+  ],
+  "code-runner.executorMap": {
+    "ocaml": "ocaml <"
+  },
+  "todohighlight.keywords": [
+    "DEBUG:",
+    "REVIEW:",
+    {
+        "text": "fun ",
+        "color": "#44919B",
+        "backgroundColor": "#ffffff00",
+    },
+    {
+      "text": "->",
+      "color": "#e06c75",
+      "backgroundColor": "#ffffff00",
+    },
+    {
+      "text": "[",
+      "color": "#078cbf",
+      "backgroundColor": "#ffffff00",
+    },
+    {
+      "text": "]",
+      "color": "#078cbf",
+      "backgroundColor": "#ffffff00",
+    },
+],
+"git.ignoreLimitWarning": true,
+}
