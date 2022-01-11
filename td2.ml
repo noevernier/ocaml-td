@@ -137,6 +137,3 @@ let rec imprime_postfixe (a : abr_expr) =
     |N(Minus, g, d) -> (print_string "("); (imprime_infixe g);  (imprime_infixe d);(print_string "-");(print_string ")");;
 
 imprime_postfixe (N(Minus, N(Mult,N(Plus, F(4), F(3)), N(Div, N(Minus, Zero, F(12)), F(2))), F(5)));;
-
-
-let rec abre_of_infixe e =
